@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+<link rel="stylesheet" type="text/css" href="login.css" />
+
+<body>
+<form action="action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="penguin.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <p>
+      <label for="phone"><b>Phone Number</b></label>
+      <input type="text"  name="uname" required>
+      
+    </p>
+    <p>
+      <label for="psw"><b>Password</b></label>
+      <input type="password"  name="psw" required>
+      
+    </p>
+    <button type="submit">Login</button>
+    <label>
+      <br />
+      <input type="checkbox" checked="checked" name="remember"> 
+      Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+</body>
+</html>
