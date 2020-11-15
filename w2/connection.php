@@ -8,7 +8,7 @@
 <body>
 <?php
 //connection to mySQL
-$link = mysqli_connect("localhost", "root", "", "workshop 2") or
+$link = mysqli_connect("localhost", "root", "", "mallparkingsystem") or
 die("could not connect");
 ?>
 </body>
